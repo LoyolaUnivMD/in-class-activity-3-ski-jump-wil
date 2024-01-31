@@ -1,0 +1,48 @@
+Import scanner and math
+
+create class
+    create main method
+        create scanner object
+        get input for hill type
+        get input for speed
+
+        if hill type is normal
+            set par, ppm, and height to pre-set values for normal hill
+            do math operations to find out time in air using Math.sqrt((2*height)/9.8)
+            find out what distance travelled is using speed * times
+            find out what points is using 60+(distance-par)*ppm
+            round distance and points to 2 decimal places
+            output how far they went and how many points they got
+
+            if points is greater than 61
+                Output you did better than par
+
+            else if points is less than or equal to 10
+                Output What happened??
+
+            else
+                Output sorry you didnt go very far
+
+        else if hill type is large
+                    set par, ppm, and height to pre-set values for normal hill
+                    do math operations to find out time in air using Math.sqrt((2*height)/9.8)
+                    find out what distance travelled is using speed * times
+                    find out what points is using 60+(distance-par)*ppm
+                    round distance and points to 2 decimal places
+                    output how far they went and how many points they got
+
+                    if points is greater than 61
+                        Output you did better than par
+
+                    else if points is less than or equal to 10
+                        Output What happened??
+
+                    else
+                        Output sorry you didnt go very far
+
+        else
+            output Invalid input for hill type
+
+
+
+
